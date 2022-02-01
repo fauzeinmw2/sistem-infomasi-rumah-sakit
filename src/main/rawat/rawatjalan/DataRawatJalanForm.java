@@ -34,7 +34,7 @@ public class DataRawatJalanForm extends javax.swing.JInternalFrame {
             java.sql.ResultSet res = stm.executeQuery(sql);
             
             while(res.next()){
-                tableModel.addRow(new Object[]{no++,res.getString(1),res.getString(2),res.getString(14),res.getString(20),res.getString(19), res.getString(21), res.getString(4), res.getString(5)});    
+                tableModel.addRow(new Object[]{no++,res.getString(1),res.getString(2),res.getString(13),res.getString(20),res.getString(19), res.getString(21), res.getString(4), res.getString(5)});    
             }
             
         }catch (SQLException e) {

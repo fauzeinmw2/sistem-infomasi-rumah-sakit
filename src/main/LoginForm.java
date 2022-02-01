@@ -134,7 +134,7 @@ public class LoginForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void lblButtonLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblButtonLoginMouseClicked
-        String userName = "admin";
+        String userName = "fauzein";
         String password = "admin";
         
         if(txtUsername.getText().equals(userName) && txtPassword.getText().equals(password)){
